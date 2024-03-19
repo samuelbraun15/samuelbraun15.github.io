@@ -22,9 +22,51 @@ def calculator(x,y):
 ssh thepentagon 
 sudo rm -rf
 ```
+
+---html
+
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+	<h1>Welcome</h1>
+      </header>
+      <div class="content">
+	<p>Where are the robots?</p>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
+---
 {: .nolineno }
 
+And then i put 
 
-Cyber security is an ever-evolving field that requires constant vigilance and up-to-date knowledge. With the rise of digital transformation, protecting personal and organizational data has become paramount. Cyber threats are not only becoming more sophisticated but also more damaging, making it essential for individuals and businesses alike to prioritize security measures. Implementing strong passwords, using two-factor authentication, and staying informed about the latest security threats are just a few steps towards enhancing your cyber security posture. Remember, the first step in protecting yourself is awareness.
+https://jupiter.challenges.picoctf.org/problem/36474/robots.txt
+
+which gave me 
+
+---html
+User-agent: *
+Disallow: /477ce.html
+---
+
+Which i made the URL into 
+
+Upon doing that i was given the flag 
+
+
+Guess you found the robots
+picoCTF{ca1cu1at1ng_Mach1n3s_477ce}
+
+
 
 ![The Lock](TestDalle.webp)
