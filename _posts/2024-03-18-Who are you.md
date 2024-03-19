@@ -23,9 +23,7 @@ As we conclude our exploration, the message is clear: security in the digital re
 Remember, in the vast expanse of the internet, knowledge is your best defense. Stay curious, stay informed, and continue to explore the depths of cyber security awareness.
 
 This write-up transforms the minimal content of the HTML snippet into a thematic exploration of a specific aspect of web security, aiming to educate readers about the importance of robots.txt in a context that blends curiosity with informative content.
-
----HTML
-
+```html
 <!doctype html>
 <html>
   <head>
@@ -46,3 +44,4 @@ This write-up transforms the minimal content of the HTML snippet into a thematic
     </div>
   </body>
 </html>
+```
