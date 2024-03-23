@@ -54,13 +54,11 @@ As you can see both files have the exact same MD5 hash but are different files c
 ```bash
 mv hello hello.pdf 
 mv erase erase.pdf         
-
-
 ```
 
 Once uploaded you will be brought to this page 
 
----html
+```php
 <?php
 
 if (isset($_POST["submit"])) {
@@ -96,10 +94,12 @@ if (isset($_POST["submit"])) {
         die();
     }
 }
-
 // FLAG: picoCTF{c0ngr4ts_u_r_1nv1t3d_aad886b9}
 
 ?>
+```
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -114,10 +114,7 @@ if (isset($_POST["submit"])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 </head>
-
 <body>
 
     <div class="container">
@@ -165,5 +162,4 @@ $(document).ready(function(){
 </body>
 
 </html>
-
----
+```

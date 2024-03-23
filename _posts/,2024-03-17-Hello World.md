@@ -5,8 +5,7 @@ date: 2024-03-17
 categories: CTF
 tags: [cyber-security, reverse-engineering]
 author: sam
-img_path: _site/assets/img/posts
-
+img_path: assets/img/posts
 ---
 
 First post, testing out Jekyll functionality
