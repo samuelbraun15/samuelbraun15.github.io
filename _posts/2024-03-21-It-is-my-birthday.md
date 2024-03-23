@@ -5,7 +5,7 @@ date: 2024-03-17
 categories: CTF
 tags: [cyber-security, reverse-engineering, web-exploitation]
 author: Sam
-img_path: assets/img/posts
+img_path: ./assets/img/posts
 ---
 
 > Hint 1: Look at the category of this problem.
