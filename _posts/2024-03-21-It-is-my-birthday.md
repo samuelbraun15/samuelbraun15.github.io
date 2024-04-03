@@ -27,7 +27,7 @@ img_path: /assets/img/posts
 >Through this simple yet effective demonstration, John introduced their friends to the concept of hash collisions, utilizing the factory machine analogy to demystify a complex principle of cybersecurity. The birthday became not just a gathering for celebration but a memorable and educational experience on the significance of digital security, showcasing John’s innovative approach to blending fun with learning.
 
 
-![Pic 1](itsbirthday1.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
+![Pic 1](itbirthday1.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 
 As you can see we have two uploadable links for PDF. Both require the same MD5 hash in order to reveal the flag. 
 
@@ -56,7 +56,7 @@ mv hello hello.pdf
 mv erase erase.pdf         
 ```
 
-![Pic 2](itsbirthday2.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
+![Pic 2](itbirthday2.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 
 Once uploaded you will be brought to this page 
 
