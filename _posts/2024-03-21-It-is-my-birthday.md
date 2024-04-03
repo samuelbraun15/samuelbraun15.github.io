@@ -49,7 +49,7 @@ da5c61e1edc0f18337e46418e48c1290  erase
 
 ```
 
-As you can see both files have the exact same MD5 hash but are different files completely. Lets go ahead and rename the files using the 'mv' command and then upload it to the website 
+Both files have the exact same MD5 hash but are different files completely. Lets go ahead and rename the files using the 'mv' command and then upload it to the website 
 
 ```bash
 mv hello hello.pdf 
@@ -58,10 +58,10 @@ mv erase erase.pdf
 
 ![Pic 2](itbirthday2.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 
-Once uploaded you will be brought to this page 
+Once uploaded you will be brought to this page, where you can see the flag
 
-```php
-<?php
+<!-- ```php
+<?php -->
 
 if (isset($_POST["submit"])) {
     $type1 = $_FILES["file1"]["type"];
