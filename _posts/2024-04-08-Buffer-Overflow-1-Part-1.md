@@ -39,8 +39,7 @@ _Downloads directory in Kali Linux_
 void vuln(){
   char buf[BUFSIZE];
   gets(buf);
-  // Further code...
-}        
+  // Further code...        
 ```
 
 > Think of the gets() function like a mouth that can eat whatever you give it.
