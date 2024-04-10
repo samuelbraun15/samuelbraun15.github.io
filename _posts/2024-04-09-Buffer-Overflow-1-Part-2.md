@@ -20,7 +20,7 @@ _Offset found_
 
 > [*] Exact match at offset 44
 
-- We can now find thr win address (the treasure chest)
+- We can now find the win address (the treasure chest)
 
 > Obtaining the Flag: The goal of the exploit is to retrieve the flag, which is stored within the win function. This function reads the flag from a file and prints it to the console. Without executing the win function, we won't be able to access the flag.
 > Control Flow Hijacking: The buffer overflow vulnerability in the vuln program allows us to overwrite the return address on the stack. By replacing the return address with the address of the win function, we hijack the program's control flow. When the vulnerable function finishes executing, instead of returning to the original calling function, it jumps to the win function, executing its code.
@@ -64,8 +64,8 @@ This line receives the response from the vulnerable program after sending the pa
 _Full python code_
 
 
-Last step is your run your run and pray it works!
+Last step is your run your program and hope it works
 
 ![Pic 8](buffer8.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
-_Here is the flag_
+_Here is the flag!_
 

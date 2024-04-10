@@ -27,13 +27,8 @@ In computer terms, this payload is like a piece of code carefully constructed to
 
 ## Buffer Overflow 1 Challenge - Part 1 - PicoCTF 
 
-
-> Control the return address
-
-> Now we're cooking! You can overflow the buffer and return to the flag function in the program.
-You can view source here. And connect with it using 
-
-> nc saturn.picoctf.net \<your-port-number-here\>
+![Pic 0](buffdesc.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
+_Description of Challenge via PicoCTF_
 
 > Hint 1 : Make sure you consider big Endian vs small Endian.
 {: .prompt-tip }
@@ -82,12 +77,12 @@ You can view source here. And connect with it using
     _Kali Linux terminal command for a 100 character sequence_
 
 4. Using GDB to analyze the attack 
-
-    Using GDB (GNU Debugger) can be very helpful for analyzing the behavior of the vulnerable program and understanding the impact of the buffer overflow. Here's how you can use GDB to debug the vuln program and determine the offset:
-
     ![Pic 3](buffer3.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
     _This is how to gain permission_
-
+    Using GDB (GNU Debugger) can be very helpful for analyzing the behavior of the vulnerable program and understanding the impact of the buffer overflow. Here's how you can use GDB to debug the vuln program and determine the offset:
+    ```bash
+    /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -q 100  
+    ```
     It seems that GDB encountered a permission denied error when attempting to execute the vuln program. This error typically occurs when the executable file does not have the necessary permissions to be executed.
 
     ```bash
@@ -100,7 +95,7 @@ You can view source here. And connect with it using
     ![Pic 4](buffer4.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
     _Segmentation Fault triggered_
 
-    - Segmentation Fault: Suddenly, the program crashes with a "Segmentation fault" error. This means that the program tried to access memory it wasn't allowed to access. In simpler terms, it's like trying to reach for something on a shelf that's not there, causing you to stumble and fall.
-    - Unknown Address: The crash occurs at an address (0x35624134) that doesn't correspond to any known function or instruction in the program. This indicates that the program's control flow has been hijacked, likely due to a buffer overflow or other vulnerability.
+    : Segmentation Fault: Suddenly, the program crashes with a "Segmentation fault" error. This means that the program tried to access memory it wasn't allowed to access. In simpler terms, it's like trying to reach for something on a shelf that's not there, causing you to stumble and fall.
+    : Unknown Address: The crash occurs at an address (0x35624134) that doesn't correspond to any known function or instruction in the program. This indicates that the program's control flow has been hijacked, likely due to a buffer overflow or other vulnerability.
 
 ## CONT. NEXT POST
