@@ -17,9 +17,8 @@ img_path: /assets/img/posts
 
 ## Buffer Overflow 1 Challenge - Part 1 - PicoCTF 
 
-Control the return address
-Now we're cooking! You can overflow the buffer and return to the flag function in the program.
-You can view source here. And connect with it using nc saturn.picoctf.net ######
+![Pic 0](buffdesc.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
+_Description of Challenge via PicoCTF_
 
 
 > Hint 1 : Make sure you consider big Endian vs small Endian.
