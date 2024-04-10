@@ -70,6 +70,10 @@ Think of a special sequence of items that you can easily recognize. This is like
 ![Pic 2](buffer2.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 _Kali Linux terminal command for a 100 character sequence_
 
+```bash
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -q 100  
+```
+
 - Using GDB to analyze the attack 
 
 Using GDB (GNU Debugger) can be very helpful for analyzing the behavior of the vulnerable program and understanding the impact of the buffer overflow. Here's how you can use GDB to debug the vuln program and determine the offset:
