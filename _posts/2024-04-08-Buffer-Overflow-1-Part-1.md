@@ -9,16 +9,13 @@ img_path: /assets/img/posts
 ---
 
 Imagine you have a storage locker with limited space, where you can only fit a certain number of items. 
-
-- This locker represents a computer's memory buffer, which is used to temporarily store data while a program is running.
+: This locker represents a computer's memory buffer, which is used to temporarily store data while a program is running.
 
 Now, let's say someone tries to stuff too many items into the locker. 
-
-- This is like a buffer overflow in computer terms. A buffer overflow occurs when a program receives more data than it can handle, causing the excess data to overwrite adjacent memory locations.
+: This is like a buffer overflow in computer terms. A buffer overflow occurs when a program receives more data than it can handle, causing the excess data to overwrite adjacent memory locations.
 
 When too many items are stuffed into the locker, some of them spill out onto the floor. 
-
-- This is similar to how a buffer overflow can overwrite neighboring memory locations, potentially causing the program to crash or behave unpredictably.
+: This is similar to how a buffer overflow can overwrite neighboring memory locations, potentially causing the program to crash or behave unpredictably.
 
 Now, let's introduce the Python exploit. Imagine there's a clever trickster who realizes they can exploit this situation to their advantage. They carefully craft a payload of items designed to overflow the locker and spill out onto the floor in a specific way.
 
@@ -95,7 +92,9 @@ _Description of Challenge via PicoCTF_
     ![Pic 4](buffer4.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
     _Segmentation Fault triggered_
 
-    : Segmentation Fault: Suddenly, the program crashes with a "Segmentation fault" error. This means that the program tried to access memory it wasn't allowed to access. In simpler terms, it's like trying to reach for something on a shelf that's not there, causing you to stumble and fall.
-    : Unknown Address: The crash occurs at an address (0x35624134) that doesn't correspond to any known function or instruction in the program. This indicates that the program's control flow has been hijacked, likely due to a buffer overflow or other vulnerability.
+    - Segmentation Fault: 
+    : Suddenly, the program crashes with a "Segmentation fault" error. This means that the program tried to access memory it wasn't allowed to access. In simpler terms, it's like trying to reach for something on a shelf that's not there, causing you to stumble and fall.
+    - Unknown Address: 
+    : The crash occurs at an address (0x35624134) that doesn't correspond to any known function or instruction in the program. This indicates that the program's control flow has been hijacked, likely due to a buffer overflow or other vulnerability.
 
 ## CONT. NEXT POST
