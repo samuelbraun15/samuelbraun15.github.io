@@ -64,8 +64,8 @@ This line receives the response from the vulnerable program after sending the pa
 _Full python code_
 
 
-Last step is your run your program and pray it works
+Last step is your run your program and hope it works
 
 ![Pic 8](buffer8.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
-_Here is the flag_
+_Here is the flag!_
 
