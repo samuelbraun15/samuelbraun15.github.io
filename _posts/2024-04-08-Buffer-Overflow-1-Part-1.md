@@ -27,10 +27,9 @@ In computer terms, this payload is like a piece of code carefully constructed to
 ![Pic 0](buffdesc.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 _Description of Challenge via PicoCTF_
 
-> Hint 1 : Make sure you consider big Endian vs small Endian.
-{: .prompt-tip }
-
-> Hint 2 : Changing the address of the return pointer can call different functions.
+> Hints 
+1.  Make sure you consider big Endian vs small Endian.
+2.  Changing the address of the return pointer can call different functions.
 {: .prompt-tip }
 
 1. Download the files 
@@ -50,20 +49,24 @@ _Description of Challenge via PicoCTF_
     - However, gets() doesn't check if the box (buf) is too small for what you're feeding it. If you try to feed it too much, it will spill over and make a mess.
     - This "mess" is what we call a buffer overflow. It's like trying to put too many groceries in a bag, and they spill out onto the floor.
 
-    - Buffer Size Declaration:
-    : In the code, there's a line that says #define BUFSIZE 32. This means the box (buf) can only hold 32 characters. But the program won't check if what you're typing is more than 32 characters long. If you type more, it will overflow and make a mess.
-    : So, even though the program only expects a small amount of input, if you give it more, it will cause trouble.
-    No Stack Protection:
-    : Just like how a castle might have guards to protect it from invaders, programs can have protection mechanisms to stop hackers.
+
+    >   - Buffer Size Declaration:
+        : In the code, there's a line that says #define BUFSIZE 32. This means the box (buf) can only hold 32 characters. But the program won't check if what you're typing is more than 32 characters long. If you type more, it will overflow and make a mess.
+        : So, even though the program only expects a small amount of input, if you give it more, it will cause trouble.
+    >   - No Stack Protection:
+        : Just like how a castle might have guards to protect it from invaders, programs can have protection mechanisms to stop hackers.
+    {: .prompt-info }
+
 
     - In this case, the program doesn't have those guards. There's a compiler flag -fno-stack-protector used when compiling the program that tells it not to have those guards.
     - Without these guards, it's easier for a hacker to sneak in and cause trouble.
-    - Potential Control Flow Manipulation:
-    : Imagine you're driving a car and suddenly someone else grabs the steering wheel and decides where to go.
-    : In the code, there's a part that prints out where the program is going next (get_return_address()). This is like telling the driver where to go next.
-    : But if a hacker can put their own instructions in there, they can make the program go wherever they want, like telling the driver to go off a cliff!
-    : This is dangerous because it lets a hacker take control of the program and make it do bad things.
 
+
+    >   - Potential Control Flow Manipulation:
+          : Imagine you're driving a car and suddenly someone else grabs the steering wheel and decides where to go.
+          : In the code, there's a part that prints out where the program is going next (get_return_address()). This is like telling the driver where to go next. But if a hacker can put their own instructions in there, they can make the program go wherever they want, like telling the driver to go off a cliff! 
+          : This is dangerous because it lets a hacker take control of the program and make it do bad things.
+    {: .prompt-info }
 
     The code has some vulnerabilities that allow someone to give it too much input, bypass its protections, and even take control of where it goes next. This is a serious problem in cybersecurity because it can be exploited by hackers to do harmful things to the program or the system it's running on.
 
