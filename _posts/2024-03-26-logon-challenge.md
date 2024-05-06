@@ -11,7 +11,7 @@ img_path: /assets/img/posts
 ![Pic 1](logondesc.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 
 
-The factory is hiding things from all of its users. 
+The factory is hiding things from all of its users 
 
 Let's login as Joe and find what they've been looking at in [Problem 13594](https://jupiter.challenges.picoctf.org/problem/13594/)
 
