@@ -14,8 +14,6 @@ img_path: /assets/img/posts
 > Hint 2: How may a PHP site check the rules in the description?
 {: .prompt-tip }
 
-
-
 >John decided to blend their birthday celebration with a lesson in cybersecurity for their friends. They crafted pairs of digital invitations that were nearly identical yet slightly different, laying the groundwork for an intriguing puzzle.
 
 >The concept hinged on understanding the MD5 hash, best explained through the analogy of a "special factory machine." Imagine a factory where every item, regardless of its nature, is processed through this machine. Its task is to produce a distinct stamp for each item, akin to a digital fingerprint, designed to uniquely identify that item.
