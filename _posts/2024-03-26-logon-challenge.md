@@ -20,9 +20,6 @@ Joe, an inquisitive soul, embarked on a quest to uncover the truth behind the fa
 
 > Step by step, Joe unraveled the layers of secrecy, uncovering clues to its clandestine activities. Through persistence and observation, he pieced together the puzzle, drawing closer to the heart of the mystery.
 And finally, with a few keystrokes, Joe cracked the code, revealing the factory's hidden treasures to the world.
-Emerging from his digital expedition, Joe felt a sense of accomplishment.
-
-> Another mystery solved, another victory for curiosity. And amidst the city's hustle and bustle, Joe knew there were always more secrets waiting to be uncovered, more puzzles waiting to be solved.
 
 ## Option 1 - Burp Suite 
 
