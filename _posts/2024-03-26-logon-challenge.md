@@ -35,9 +35,9 @@ Emerging from his digital expedition, Joe felt a sense of accomplishment.
 ![Pic 1](logon1.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
 _Login attempt via Burp Suite_
 
-Lets change that to True. and hit forward. 
+Lets change that to True, then hit forward. Your flag will be revealed.
 
-## Here is the flag ! 
+
 
 #### The Burp Suite Expedition
 - Interception and Analysis: Burp Suite's interception feature allows cybersecurity professionals to intercept and analyze HTTP requests and responses between a client (such as a web browser) and a server. This is invaluable for understanding how web applications function and identifying potential security vulnerabilities.

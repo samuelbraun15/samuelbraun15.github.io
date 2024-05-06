@@ -64,8 +64,8 @@ _Description of Challenge via PicoCTF_
 
     >   - Potential Control Flow Manipulation:
           : Imagine you're driving a car and suddenly someone else grabs the steering wheel and decides where to go.
-          : In the code, there's a part that prints out where the program is going next (get_return_address()). This is like telling the driver where to go next. But if a hacker can put their own instructions in there, they can make the program go wherever they want, like telling the driver to go off a cliff! 
-          : This is dangerous because it lets a hacker take control of the program and make it do bad things.
+          : In the code, there's a part that prints out where the program is going next (get_return_address()). This is like telling the driver where to go next. But if a hacker can put their own instructions in there, they can make the program go wherever they want. 
+          : This is dangerous because it lets a hacker take control of the program.
     {: .prompt-info }
 
     The code has some vulnerabilities that allow someone to give it too much input, bypass its protections, and even take control of where it goes next. This is a serious problem in cybersecurity because it can be exploited by hackers to do harmful things to the program or the system it's running on.
