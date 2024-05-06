@@ -8,6 +8,8 @@ author: Sam
 img_path: /assets/img/posts
 ---
 
+![Pic 1](birthdaydesc.webp){:style="display:block; margin-left:auto; margin-right:auto; width:80%; border: 3px solid black;"}
+
 > Hint 1: Look at the category of this problem.
 {: .prompt-tip }
 
