@@ -22,7 +22,7 @@ img_path: /assets/img/posts
 
 >However, the twist in John’s invitations highlighted a notable glitch in this machine—the phenomenon of two completely different items receiving the exact same stamp, a scenario known as a "collision." This was the essence of the challenge set by John.
 
->To participate, guests were instructed to upload their invitation pairs to a PHP website Alex had created. This site, functioning as the digital equivalent of a gatekeeper, employed a script to check if the two files, despite their differences, shared the same MD5 stamp. This process transformed a simple task into a live demonstration on the importance of digital authenticity and the inherent vulnerabilities in cryptographic systems.
+>To participate, guests were instructed to upload their invitation pairs to a PHP website John had created. This site, functioning as the digital equivalent of a gatekeeper, employed a script to check if the two files, despite their differences, shared the same MD5 stamp. This process transformed a simple task into a live demonstration on the importance of digital authenticity and the inherent vulnerabilities in cryptographic systems.
 
 >Through this simple yet effective demonstration, John introduced their friends to the concept of hash collisions, utilizing the factory machine analogy to demystify a complex principle of cybersecurity. The birthday became not just a gathering for celebration but a memorable and educational experience on the significance of digital security, showcasing John’s innovative approach to blending fun with learning.
 
