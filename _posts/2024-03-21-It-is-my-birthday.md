@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It is my birthday"
+title: "Johns Birthday Invitations"
 date: 2024-03-17
 categories: CTF
 tags: [cyber-security, reverse-engineering, web-exploitation]
@@ -61,12 +61,7 @@ Once uploaded you will be brought to this page, where you can see the flag
 <!-- ```php
 <?php -->
 
-if (isset($_POST["submit"])) {
-    $type1 = $_FILES["file1"]["type"];
-    $type2 = $_FILES["file2"]["type"];
-    $size1 = $_FILES["file1"]["size"];
-    $size2 = $_FILES["file2"]["size"];
-    $SIZE_LIMIT = 18 * 1024;
+
 
     if (($size1 < $SIZE_LIMIT) && ($size2 < $SIZE_LIMIT)) {
         if (($type1 == "application/pdf") && ($type2 == "application/pdf")) {
